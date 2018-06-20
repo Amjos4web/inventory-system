@@ -1,0 +1,168 @@
+body, html {
+	height: 100%;
+	
+}
+#container {
+	width: 60%;
+	margin-top: -15px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100%;
+	background: #f1f1f1;
+	position: relative;
+	overflow: hidden;
+}
+#header{
+    width: 100%;
+    min-width: 50%;
+    height: auto;
+	background-color: #3b5998;
+}
+#header h3 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 2.2em;
+	color: #fff;
+	padding: 5px 10px 10px 10px;
+	line-height: 20px;
+	/*background: #ffffff;*/
+	border: 0px solid #387799;
+	text-transform: uppercase;
+	text-align: center;
+}
+.login {
+	width: 100%;
+	margin-top: 0px;
+	min-height: 100%;
+	background: #fff;
+}
+.admin {
+	width: 50%;
+	min-height: 100%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #f1f1f1;
+	border-right: 3px solid #000000;
+	
+	
+}
+.client {
+	width: 50%;
+	min-height: 100%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #f1f1f1;
+}
+.login label {
+	font-family: monospace;
+	font-size: 14px;
+}
+.menu {
+	width: 100%;
+	margin-top: -9px;
+	min-height: 100%;
+	background: #f1f1f1;
+	
+}
+.menu_list {
+	width: 30%;
+	min-height: 100%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #3B3C40;
+	position: absolute;
+}
+.menu_list label {
+	font-family: monospace;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+.article_section {
+	width: 70%;
+	min-height: 100%;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #f1f1f1;
+	position: relative;
+}
+ul.exect_nav {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul.exect_nav li {
+    font-weight: bold;
+    display: block;
+    zoom: 1;
+    background: #000 url(../images/overlay2.png) repeat-x top left;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;   
+    margin:1px;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	font-size: 12px;
+}
+ul.exect_nav a:hover {
+    color: orange;
+	border-radius: 5px;
+}
+
+ul.exect_nav a:active {
+    color: #ffa500;
+}
+
+ul.exect_nav li a {
+	margin-top: 10px;
+    display: block;
+    padding: 4px 30px;
+    color: #fff;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.2);
+	text-decoration: none;
+}
+.footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #3b5998;
+}
+.footer p {
+	color: #f1f1f1;
+	text-align: center;
+}
+.marquee {
+	background: #fff;
+}
+span.errormessage {
+	color: #880000;
+}
+.avatar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px; 
+	height: 160px;
+	border-radius: 50%;
+}
+label.avail {
+	font-family: monospace;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: #880000;
+}
+.search {
+	float: right;
+	margin-right: -15px;
+}
+hr {
+  height: 2px;
+    background-color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
